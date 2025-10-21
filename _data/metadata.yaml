@@ -31,11 +31,11 @@ contact:
  address: 
    title: "Address"
    icon: "fas fa-map-marked-alt"
-   text: "4923 Market Street, Orlando FL"
+   text: "P.O. Box 188, Alpine, CA 91903"
  email: 
    title: "Email"
    icon: "fas fa-envelope"
-   text: "hello@yourdomain.com"
+   text: "hello@desecratingthesacred.com"
  phone: 
    title: "Phone"
    icon: "fas fa-mobile-alt"
