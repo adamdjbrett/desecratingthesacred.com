@@ -3,7 +3,7 @@ header:
   title: "GRAYSCALE"
   description: "A free, responsive, one page Bootstrap theme created by Start Bootstrap."
   video:  
-  image: /img/bg-masthead.webp
+  image: /img/documentary/spring-black-elk-peak.webp
   button: "Get Started"
   url: "#about"
 
@@ -21,7 +21,7 @@ section:
   - section_name: "projects"
     title: "Projects"
     description: "Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!"
-    media: "/img/bg-masthead.webp"
+    media: "/img/documentary/spring-black-elk-peak.webp"
     sub_section1:
       - title: "Misty"
         video: https://www.youtube.com/watch?v=JG7CjvB_eQc&pp=0gcJCfwJAYcqIYzv
@@ -35,7 +35,7 @@ section:
   - section_name: "services"
     title: "Services"
     description: "Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!"
-    media: "/img/bg-masthead.webp"
+    media: "/img/documentary/spring-black-elk-peak.webp"
     sub_section1:
       - title: "Services Misty"
         video: 

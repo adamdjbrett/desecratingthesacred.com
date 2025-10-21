@@ -1,18 +1,12 @@
-# One Page Bootstrap
+# Desecrating the Sacred Official Repository 🦬
 
-Develope with 11ty by Adam Dj Brett
+## Changes Needed
+1. ```metadata.yaml``` add subtitle (line 12) to the visible page
+2. add logo.svg to top left corner of the site.
+3. set copyright year automatically
 
-Need help or project ?? 
 
-Contact Me: 
-- https://www.adamdjbrett.com
-- info@adamdjbrett.com
-
-### How to: 
-
-#### Setup
-
-Open on `_data/metadata.yaml` and update configuration.
+## How To
 
 #### Home Page
 
