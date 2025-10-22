@@ -8,7 +8,8 @@
     1. Make O[riginal Free Nations](Original Free Nations) a link in the copyright.
     2. Built with [11ty](https://11ty.dev)
     3. right aligned links to sitemap, feed, credits
-5. deleted raw
+5. deleted ```public/raw```
+6. credits.md needs styling
 
 
 ## How To
