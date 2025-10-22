@@ -4,7 +4,7 @@
 1. ```metadata.yaml``` add subtitle (line 12) to the visible page
 2. add logo.svg to top left corner of the site.
 4. Footer needs
-    1. Make O[riginal Free Nations](Original Free Nations) a link in the copyright.
+    1. Make [Original Free Nations](Original Free Nations) a link in the copyright.
     2. Built with [11ty](https://11ty.dev)
     3. right aligned links to sitemap, feed, credits
 
