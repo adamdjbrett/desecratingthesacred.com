@@ -1,4 +1,6 @@
+.cache
+.env
+.DS_Store
 _site/
 node_modules/
-.cache
-.DS_Store
+package-lock.json

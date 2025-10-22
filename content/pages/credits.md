@@ -2,7 +2,6 @@
 layout: base.njk
 title: Credits
 permalink: /credits/
-date: Last Modified
 ---
 
 ## An Original Free Nations Production
