@@ -51,16 +51,16 @@ export default async function(eleventyConfig) {
 			}
 		},
 		collection: {
-			name: "posts",
+			name: "all",
 			limit: 10,
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "Desecrting the Sacred",
+			subtitle: "Desecrating the Sacred is the result of a decades-long meditation that raises a profound question with planetary implications: What happens when the Sacred Free Existence of the Original Native Nations and Peoples of Turtle Island (&ldquo;North America&rdquo;) which honors All of Creation is invaded and thereby desecrated by an invading People who have traversed a vast ocean, an invading People who claim they are carrying a Sacred Right of Domination given to them by their &ldquo;God&rdquo;?",
+			base: "https://desecratingthesacred.com/",
 			author: {
-				name: "Your Name"
+				name: "desecratingthesacred"
 			}
 		}
 	});

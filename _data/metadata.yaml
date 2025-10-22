@@ -10,6 +10,10 @@ formspree_id: "https://formspree.io/f/{form_id}"
 navbar: 
  title: Desecrating the Sacred
  subtitle: An Original Free Nations Production #add to homepage
+ logo: 
+   image: /img/logo.svg
+   width: "50"
+   height: "50"
  list: 
    - nav: About
      url: "#about"
@@ -42,6 +46,23 @@ contact:
    text: "+1 (555) 902-8832"
    url: "tel:+15559028832"
 
+footer: 
+ left: 
+   copyrights: Original Free Nations
+   info: 
+     text: built with
+     jamstack: 11ty
+     url: https://www.11ty.dev
+ right: 
+   list: 
+     - nav: Sitemap
+       url: /sitemap.xml
+     - nav: Feed
+       url: /feed/feed.xml
+     - nav: Credits
+       url: /credits
+
+
 social:
  - title: Follow my Facebook
    icon: fab fa-facebook
@@ -52,8 +73,6 @@ social:
  - title: Follow my Github
    icon: fab fa-github
    url: https://github.com
-
-copyrights: "Desecrating the Sacred, An Original Free Nations Production. All Rights Reserved."
 
 developer: 
  text: managed by
