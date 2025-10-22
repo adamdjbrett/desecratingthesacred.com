@@ -11195,3 +11195,9 @@ body {
 	white-space: nowrap;
 	width: 1px;
 }
+.navbar-brand .smaller {
+  display: block;
+  margin-top: -25px;
+  margin-left: 70px;
+}
+.smaller {font-size: 14px;}

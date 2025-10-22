@@ -46,5 +46,8 @@ section:
         video: 
         image: "/img/demo-image-02.webp"
         content: "Another example of a project with its respective description."
+tags:
+  - all
+
 layout: home.njk
 ---
