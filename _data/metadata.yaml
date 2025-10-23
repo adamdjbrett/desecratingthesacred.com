@@ -10,10 +10,11 @@ formspree_id: "https://formspree.io/f/{form_id}"
 navbar: 
  title: Desecrating the Sacred
  subtitle: An Original Free Nations Production #add to homepage
+ title_space: "12"
  logo: 
    image: /img/logo.svg
-   width: "50"
-   height: "50"
+   width: "115"
+   height: "100"
  list: 
    - nav: About
      url: "#about"
