@@ -5,6 +5,7 @@ locale: en_US
 image: /img/favicon.svg
 favicon: /img/favicon.svg
 url: https://desecratingthesacred.com
+#url: http://localhost:8080
 formspree_id: "https://formspree.io/f/{form_id}"
 
 navbar: 
