@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
 | File Name                  | Credit    |
 | :------                    | :-----------|
 | spring-black-elk-peak.webp | Steven T. Newcomb |
-  
+| bison_skull_pile-restored-web.webp | [NPS Photo/Unknown author/Photo edited by User:PawełMM /Burton Historical Collection, Detroit Public Library](https://www.nps.gov/articles/000/what-happened-to-the-bison.htm) |
   
   
 ---
