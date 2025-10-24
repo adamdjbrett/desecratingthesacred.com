@@ -26,12 +26,12 @@ section:
     sub_section1:
       - title: "Goals"
        #video: https://www.youtube.com/watch?v=JG7CjvB_eQc&pp=0gcJCfwJAYcqIYzv
-        image: "/img/documentary/1.png"
+        image: "/img/documentary/1.webp"
         content: "Through the words of Elders, land defenders, and Indigenous scholars, the documentary reveals a profound contrast: the Sacred Free Way of Life—a spiritual relationship of reciprocity and respect for all beings—against the Claim of a Right of Domination, which turned living worlds into property and the Elements of Creation into commodities used to ruthlessly maximize profit. The movie raises another question: Is it possible for contemporary Native Peoples who remember that their Ancestors lived a Sacred Free Way of Life to liberate themselves from a centuries-old claim of a right of domination as they work to restore their languages, cultures, and spiritual and ceremonial and ecologically healthy traditions?"
     sub_section2:
       - title: "Director’s Statement"
         video: 
-        image: "/img/documentary/2.png"
+        image: "/img/documentary/2.webp"
         content: "*Desecrating the Sacred* is a film born from the necessity of truth-telling. The earth is not a backdrop to human history—it is the first text, the first covenant. This documentary seeks to reframe environmental devastation as a moral and spiritual crisis rooted in the Doctrine of Discovery and its enduring legal and cultural echoes. By centering Indigenous knowledge systems and the lived experiences of nations who remember their freedom, the film calls viewers to witness both the depth of desecration and the resilience of renewal. The camera becomes a witness, not an observer, to the enduring relationship between people and the sacred land."
   - section_name: "services"
     title: "Themes"
