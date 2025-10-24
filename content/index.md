@@ -2,11 +2,13 @@
 header:
   title: "DESECRATING THE SACRED"
   description: | 
-    Desecrating the Sacred asks the viewer to reflect upon the contrast between the intense desire of homo sapiens to live free and the intense desire by powerful and influential people to deprive Free Peoples of their ability to live a sacred free way of life on their own lands by subjecting them to an imposed and ongoing *claim of a right of domination*.
+    *Desecrating the Sacred asks the viewer to reflect upon the contrast between the intense desire of homo sapiens to live free and the intense desire by powerful and influential people to deprive Free Peoples of their ability to live a sacred free way of life on their own lands by subjecting them to an imposed and ongoing *claim of a right of domination*.*
   video:  
   image: /img/documentary/spring-black-elk-peak.webp
   button: "Get Started"
   url: "#about"
+  button1: "Download Prospectus"
+  url1: "#about"
 
 about:
   section_name: "about"

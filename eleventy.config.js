@@ -64,6 +64,12 @@ export default async function(eleventyConfig) {
 			}
 		}
 	});
+  const md = new markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+
 	  let markdownItOptions = {
     html: true,
     breaks: true,

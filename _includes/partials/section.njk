@@ -11,14 +11,13 @@
                 </div>
                 {% for si in s.sub_section1 %}
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6 bg-black">
-					{% if si.image %}<img class="img-fluid" src="{{si.image}}" alt="{{si.title}}" />{% else %}
-					{{si.video | markdownify |safe}}{% endif %}
-					</div>
+                    {% if si.image %} <div class="col-lg-6 bg-black" style="background-image: url('{{metadata.url}}{{si.image}}'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                {% else %}
+					<div class="col-lg-6 bg-black">{{si.video| markdownify |safe}}</div>{% endif %}
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <div class="project-text p-3 p-md-5 w-100 my-auto text-center text-lg-left">
                                     <h3 class="text-white">{{si.title}}</h3>
                                     <div class="mb-0 text-white-50">{{si.content| markdownify |safe}}</div>
                                 </div>
@@ -28,13 +27,14 @@
                 </div>{% endfor %}
                 {% for si in s.sub_section2 %}
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6 bg-black">
-					{% if si.image %}<img class="img-fluid" src="{{si.image}}" alt="{{si.title}}" />{% else %}
-					{{si.video| markdownify |safe}}{% endif %}</div>
+                    
+                    {% if si.image %} <div class="col-lg-6 bg-black" style="background-image: url('{{metadata.url}}{{si.image}}'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+                    {% else %}
+					<div class="col-lg-6 bg-black">{{si.video| markdownify |safe}}</div>{% endif %}
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <div class="project-text p-3 p-md-5 w-100 my-auto text-center text-lg-right">
                                     <h3 class="text-white">{{si.title}}</h3>
                                     <div class="mb-0 text-white-50">{{si.content| markdownify |safe}}</div>
                                 </div>

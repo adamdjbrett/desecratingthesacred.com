@@ -6,8 +6,9 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">{{header.title}}</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">{{header.description}}</h2>
+                        <h2 class="text-white-50 mx-auto mt-5 mb-5"><div>{{header.description | markdownify |safe}}</div></h2>
                         <a class="btn btn-primary" href="{{header.url}}">{{header.button}}</a>
+                        <a class="ms-3 btn btn-secondary" href="{{header.url1}}">{{header.button1}}</a>
                     </div>
                 </div>
             </div>
