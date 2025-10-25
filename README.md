@@ -2,7 +2,7 @@
 Based on [Startboot Strap's Grayscale Theme](https://github.com/adamdjbrett/startbootstrap-grayscale)
 
 ## Changes Needed
-
+1. Work in progress
 
 ## Done
 ~~1. ```index.md``` fix the description to have a wider width~~
