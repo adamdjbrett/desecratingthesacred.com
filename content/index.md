@@ -8,7 +8,7 @@ header:
   button: "Get Started"
   url: "#about"
   button1: "Download Prospectus"
-  url1: "#about"
+  url1: "/pdfs/Newcomb_Desecrating_the_Sacred_Pitch_Sheet.pdf"
 
 about:
   section_name: "about"
