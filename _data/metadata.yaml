@@ -21,6 +21,8 @@ navbar:
      url: "#about"
    - nav: Projects
      url: "#projects"
+   - nav: Director
+     url: "#director"
    - nav: Services
      url: "#services"
    - nav: Contact
