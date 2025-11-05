@@ -8,7 +8,7 @@ header:
   button: "Get Started"
   url: "#about"
   button1: "Download Prospectus"
-  url1: "#about"
+  url1: "/pdfs/Newcomb_Desecrating_the_Sacred_Pitch_Sheet.pdf"
 
 about:
   section_name: "about"
@@ -28,13 +28,13 @@ section:
     sub_section1:
       - title: "Goals"
        #video: https://www.youtube.com/watch?v=JG7CjvB_eQc&pp=0gcJCfwJAYcqIYzv
-        image: "/img/documentary/1.png"
+        image: "/img/documentary/1.webp"
         content: "Through the words of Elders, land defenders, and Indigenous scholars, the documentary reveals a profound contrast: the Sacred Free Way of Life—a spiritual relationship of reciprocity and respect for all beings—against the Claim of a Right of Domination, which turned living worlds into property and the Elements of Creation into commodities used to ruthlessly maximize profit. The movie raises another question: Is it possible for contemporary Native Peoples who remember that their Ancestors lived a Sacred Free Way of Life to liberate themselves from a centuries-old claim of a right of domination as they work to restore their languages, cultures, and spiritual and ceremonial and ecologically healthy traditions?"
     sub_section2:
       - title: "Director’s Statement"
         video: 
-        image: "/img/documentary/2.png"
-        content: "*Desecrating the Sacred* is a film born from the necessity of truth-telling. The earth is not a backdrop to human history—it is the first text, the first covenant. This documentary seeks to reframe environmental devastation as a moral and spiritual crisis rooted in the Doctrine of Discovery and its enduring legal and cultural echoes. By centering Indigenous knowledge systems and the lived experiences of nations who remember their freedom, the film calls viewers to witness both the depth of desecration and the resilience of renewal. The camera becomes a witness, not an observer, to the enduring relationship between people and the sacred land."
+        image: "/img/documentary/2.webp"
+        content: "*Desecrating the Sacred* is a film born from a commitment to truth-telling. The Earth is not a backdrop to human history—it is the first text, the first covenant. This documentary seeks to reframe environmental devastation as a moral and spiritual crisis rooted in the Doctrine of Discovery and its enduring legal and cultural echoes. By centering Indigenous knowledge systems and the lived experiences of nations who remember their original free existence, the film calls viewers to witness both the depth of desecration and the resilience of renewal. The camera becomes a witness, not an observer, to the enduring relationship between people and the sacred land."
     sub_section3:
       - title: "Director"
         video: 
@@ -43,10 +43,10 @@ section:
   - section_name: "services"
     title: "Themes"
     description: |
-      - The Doctrine of Christian Discovery and the Right of Domination
-      - The Sacred Free Way of Life and the memory of freedom
-      - Environmental devastation as spiritual and legal colonization
-      - Indigenous resurgence and restoration of the sacred balance
+      - The Doctrine of Christian Discovery and the Claimed Right of Domination
+      - The Sacred Free Way of Life and Restoring the Memory of Original Free Existence
+      - Environmental Devastation as a Result of Spiritual and Legal Colonization
+      - Indigenous Resurgence And Efforts To Restore The Sacred Balance
     media: "/img/documentary/spring-black-elk-peak.webp"
     sub_section1:
       - title: "Intended Impact / Distribution"
@@ -57,7 +57,7 @@ section:
       - title: "Style & Approach"
         video: 
         image: "/img/demo-image-02.webp"
-        content: "Visually grounded in elemental forces—wind, fire, earth, and water—the film juxtaposes archival imagery, on-the-ground footage, and Indigenous narration. It contrasts two horizons: from the deck of the ship, the colonizer’s gaze consecrating land for conquest; from the shore, the Indigenous perspective witnessing desecration. These dual vantage points embody the clash between domination and freedom, desecration and renewal."
+        content: "Visually grounded in elemental forces—wind, fire, earth, and water—the film juxtaposes archival imagery, on-the-ground footage, and Indigenous narration. It contrasts two perspectives: the view-from-the-shore of our free an independent Native ancestors, contrasted with a view from the deck of the ship with the colonizers' gaze claiming to consecrating newly identified land for the purpose of domination they call 'civlilzation'. The view-from-the-shore, the Original Peoples' perspective witnessing the desecration of their pristine lands and waters the free way of life. These differing persepctives provide the context for the clash between a free existence and domination, desecration, and renewal."
 tags:
   - all
 
