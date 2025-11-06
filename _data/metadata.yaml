@@ -1,5 +1,12 @@
 title: "Desecrating the Sacred"
 description: "Desecrating the Sacred is the result of a decades-long meditation that raises a profound question with planetary implications: What happens when the Sacred Free Existence of the Original Native Nations and Peoples of Turtle Island (&ldquo;North America&rdquo;) which honors All of Creation is invaded and thereby desecrated by an invading People who have traversed a vast ocean, an invading People who claim they are carrying a Sacred Right of Domination given to them by their &ldquo;God&rdquo;?" 
+keywords: 
+  - documentary
+  - film
+  - indigenous
+  - native
+  - Nations
+  - sacred
 language: en
 locale: en_US
 image: /img/favicon.svg
@@ -30,7 +37,7 @@ navbar:
 
 subscribe: 
   title: "Subscribe to receive updates!"
-  icon: "far fa-paper-plane"
+  icon: "fa-solid fa-paper-plane"
   image: "/img/bg-signup.webp"
   placeholder: "Enter Email Address.."
   button: "Notify Me!"
@@ -38,17 +45,17 @@ subscribe:
 contact: 
  address: 
    title: "Address"
-   icon: "fas fa-map-marked-alt"
+   icon: "fa-solid fa-map-marked-alt"
    text: "P.O. Box 188, Alpine, CA 91903"
  email: 
    title: "Email"
-   icon: "fas fa-envelope"
+   icon: "fa-solid fa-envelope"
    text: "hello@desecratingthesacred.com"
  phone: 
-   title: "Phone"
-   icon: "fas fa-mobile-alt"
-   text: "+1 (555) 902-8832"
-   url: "tel:+15559028832"
+   title: "Social Media"
+   icon: "fa-brands fa-facebook"
+   text: "@example"
+   url: "https://www.facebook.com/"
 
 footer: 
  left: 
@@ -69,13 +76,13 @@ footer:
 
 social:
  - title: Follow my Facebook
-   icon: fab fa-facebook
+   icon: fa-brands  fa-facebook
    url: https://fb.com
  - title: Follow my Twitter
-   icon: fab fa-twitter
+   icon: fa-brands  fa-twitter
    url: https://twitter.com
  - title: Follow my Github
-   icon: fab fa-github
+   icon: fa-brands  fa-github
    url: https://github.com
 
 developer: 

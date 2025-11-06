@@ -1,10 +1,14 @@
 <title>{{title or metadata.title}}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="{{title or metadata.title}}" property="og:title" />
 <meta content="{{title or metadata.title}}" property="dc:title" />
 <meta content="{{title or metadata.title}}" name="twitter:title" />
 <meta content="{{title or metadata.title}}" name="title" />
 <meta content="{{title or metadata.title}}" property="og:site_name" />
 <meta content="{{description or metadata.description}}" name="description" />
+<meta name="keywords" content="{{ metadata.keywords | join(', ') }}" />
+<meta name="author" content="{{ metadata.author.name }}">
 <meta
 	content="{{description or metadata.description}}"
 	property="facebook:description"

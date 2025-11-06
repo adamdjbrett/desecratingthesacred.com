@@ -31,13 +31,17 @@
 		"@11ty/eleventy-navigation": "^1.0.4",
 		"@11ty/eleventy-plugin-rss": "^2.0.4",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+		"@fullhuman/postcss-purgecss": "^7.0.2",
 		"cross-env": "^7.0.3",
+		"html-minifier-terser": "^7.2.0",
 		"luxon": "^3.6.1",
+		"postcss": "^8.5.6",
 		"prismjs": "^1.30.0",
 		"zod": "^3.25.67",
 		"zod-validation-error": "^3.5.2"
 	},
 	"dependencies": {
+		"@11ty/font-awesome": "^1.0.0",
 		"@zachleat/heading-anchors": "^1.0.3",
 		"eleventy-plugin-embed-everything": "^1.21.0",
 		"markdown-it": "^14.1.0"
