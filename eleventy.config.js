@@ -18,7 +18,6 @@ const __dirname = path.dirname(__filename);
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
 	// Plugins
-	eleventyConfig.addPlugin(fontAwesomePlugin);
 	
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
 		if(data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
@@ -45,6 +44,7 @@ export default async function(eleventyConfig) {
 		// Only bundle scripts explicitly marked; keep inline scripts like JSON-LD in the page
 		bundleHtmlContentFromSelector: "script[webc\\:bundle]",
 	});
+	eleventyConfig.addPlugin(fontAwesomePlugin);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 }
 	});
