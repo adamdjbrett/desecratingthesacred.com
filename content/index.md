@@ -36,14 +36,14 @@ section:
         image: "/img/documentary/2.webp"
         content: "*Desecrating the Sacred* is a film born from a commitment to truth-telling. The Earth is not a backdrop to human history—it is the first text, the first covenant. This documentary seeks to reframe environmental devastation as a moral and spiritual crisis rooted in the Doctrine of Discovery and its enduring legal and cultural echoes. By centering Indigenous knowledge systems and the lived experiences of nations who remember their original free existence, the film calls viewers to witness both the depth of desecration and the resilience of renewal. The camera becomes a witness, not an observer, to the enduring relationship between people and the sacred land."
     sub_section3:
-      - title: "Director"
+      - title: "Co-Director"
         video: 
         image: "/img/documentary/newcomb-600x400.webp"
         content: "Steven T. Newcomb (Shawnee/Lenape) has been researching the history of U.S. federal Indian law and policy for four decades. He is recognized as one of the world's leading experts on the Doctrine of Christian Discovery and the influence of the Vatican papal decrees of the fifteenth century on U.S. law. He has published several law review articles on the subject. His book Pagans in the Promised Land: Decoding the Doctrine of Christian Discovery (Fulcrum, 2008), is the basis for The Doctrine of Discovery: Unmasking the Domination Code, a documentary film directed by Sheldon Wolfchild (Dakota). Original Free Nations and Indigenous Law Institute are two websites where some of his work can be found."
     sub_section4:
       - title: "Co-Director"
         video: 
-        image: "/img/documentary/peter-derrico.jpg"
+        image: "/img/documentary/peter-derrico.webp"
         content: "Peter d’Errico graduated from Yale Law School in 1968. He was an attorney at Dinébe’iiná Náhiiłna be Agha’diit’ahii, Navajo Legal Services, in Shiprock, 1968-1970. He was a founding professor of Legal Studies at the University of Massachusetts Amherst and taught there from 1970-2002. He has litigated on behalf of Native prisoners’ freedom of religion; Mashpee Wampanoag fishing rights; Western Shoshone land rights; and consulted on other Indigenous cases. From 2010-2017, he was a columnist for Indian Country Today Media Network. His book, Federal Anti-Indian Law: The Legal Entrapment of Indigenous Peoples"
   - section_name: "services"
     title: "Themes"
