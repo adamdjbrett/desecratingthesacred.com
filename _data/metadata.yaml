@@ -53,9 +53,9 @@ contact:
    text: "hello@desecratingthesacred.com"
  phone: 
    title: "Social Media"
-   icon: "fa-brands fa-facebook"
-   text: "@example"
-   url: "https://www.facebook.com/"
+   icon: "fa-brands fa-youtube"
+   text: "DominationChronicles.com"
+   url: "https://www.youtube.com/@DominationChronicles"
 
 footer: 
  left: 
@@ -75,15 +75,18 @@ footer:
 
 
 social:
- - title: Follow my Facebook
+ - title: Follow Steve on Facebook
    icon: fa-brands  fa-facebook
-   url: https://fb.com
- - title: Follow my Twitter
-   icon: fa-brands  fa-twitter
-   url: https://twitter.com
- - title: Follow my Github
-   icon: fa-brands  fa-github
-   url: https://github.com
+   url: https://www.facebook.com/steventnewcomb
+ - title: Follow Steve on Substack
+   icon: fa-solid fa-blog
+   url: https://stevennewcomb.substack.com/
+ - title: Follow Peter on Substack
+   icon: fa-solid fa-blog
+   url: https://peterderrico.substack.com/
+ - title: Follow Our youtube
+   icon: fa-brands  fa-youtube
+   url: https://www.youtube.com/@DominationChronicles
 
 developer: 
  text: managed by
