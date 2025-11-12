@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="{{ metadata.language }}">
 <head>
+{# Single JSON-LD @graph combining WebSite + Movie (merged in eleventyComputed.js) #}
+<script eleventy:ignore type="application/ld+json">{{ schemaorg | dump | safe }}</script>
 {% include "partials/seo.njk" %}
-{% include "partials/schema.njk" %}
 <style>{% include "css/index.css" %}</style>
 {# <style>{% getBundle "css" %}</style> #}
 </head>
