@@ -1,0 +1,35 @@
+{
+	"@context": "https://schema.org",
+	"@type": "Movie",
+	"name": {{ (title or metadata.title) | dump | safe }},
+	"description": {{ (description or metadata.description) | striptags | dump | safe }},
+	"url": {{ (metadata.url ~ page.url) | dump | safe }},
+	"image": [ {{ (image or metadata.image) | dump | safe }} ],
+	"inLanguage": {{ (metadata.locale or metadata.language) | dump | safe }}{% if metadata.keywords and (metadata.keywords | length) > 0 %},
+	"genre": [ {% for k in metadata.keywords %}{{ k | dump | safe }}{% if not loop.last %}, {% endif %}{% endfor %} ]{% endif %},
+	"director": {
+		"@type": "Person",
+		"name": {{ metadata.author.name | dump | safe }}{% if metadata.author.url %},
+		"url": {{ metadata.author.url | dump | safe }}{% endif %}
+	},
+	"productionCompany": {
+		"@type": "Organization",
+		"name": {{ "Original Free Nations" | dump | safe }}
+	}{% set anySameAs = (metadata.metasocial and (metadata.metasocial.facebook or metadata.metasocial.twitter)) or (metadata.social and (metadata.social | length) > 0) %}{% if anySameAs %},
+	"sameAs": [
+		{%- set first = true -%}
+		{%- if metadata.metasocial and metadata.metasocial.facebook -%}
+			{%- if not first -%},{%- endif -%}{{ metadata.metasocial.facebook | dump | safe -}}{%- set first = false -%}
+		{%- endif -%}
+		{%- if metadata.metasocial and metadata.metasocial.twitter -%}
+			{%- if not first -%},{%- endif -%}{{ metadata.metasocial.twitter | dump | safe -}}{%- set first = false -%}
+		{%- endif -%}
+		{%- if metadata.social -%}
+			{%- for s in metadata.social -%}
+				{%- if s.url -%}
+					{%- if not first -%},{%- endif -%}{{ s.url | dump | safe -}}{%- set first = false -%}
+				{%- endif -%}
+			{%- endfor -%}
+		{%- endif -%}
+	]{% endif %}
+}

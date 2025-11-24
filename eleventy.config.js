@@ -168,18 +168,34 @@ export default async function(eleventyConfig) {
 		return content;
 	});
 
-	// HTML minification transform
-	eleventyConfig.addTransform("htmlmin", function(content) {
+	// HTML minification transform (preserve JSON-LD scripts safely across multiline)
+	eleventyConfig.addTransform("htmlmin", async function(content) {
 		if (this.page.outputPath && this.page.outputPath.endsWith(".html")) {
 			try {
-				const minified = htmlmin.minify(content, {
+				// Extract JSON-LD blocks (can span multiple lines) and temporarily replace with placeholders
+				const jsonldRegex = /<script[^>]*type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi;
+				const jsonldBlocks = [];
+				let placeholderIndex = 0;
+				let protectedContent = content.replace(jsonldRegex, (match) => {
+					const key = `__JSONLD_BLOCK_${placeholderIndex++}__`;
+					jsonldBlocks.push({ key, match });
+					return key; // inject placeholder
+				});
+
+				const minified = await htmlmin.minify(protectedContent, {
 					useShortDoctype: true,
 					removeComments: true,
 					collapseWhitespace: true,
 					minifyCSS: true,
 					minifyJS: true
 				});
-				return minified;
+
+				// Restore JSON-LD blocks without minifying their internal whitespace to avoid accidental structural changes
+				let restored = typeof minified === 'string' ? minified : String(minified || '');
+				for (const block of jsonldBlocks) {
+					restored = restored.replace(block.key, block.match);
+				}
+				return restored;
 			} catch (error) {
 				console.error(`[htmlmin] Error minifying ${this.page.outputPath}:`, error.message);
 				return content;
