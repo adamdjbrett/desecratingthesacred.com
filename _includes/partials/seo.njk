@@ -53,3 +53,14 @@
 <meta property="og:locale" content="{{ metadata.locale }}" />
 <meta name="generator" content="{{ eleventy.generator }}" />
 <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+{# Zotero / Highwire / PRISM — documentary film site #}
+<meta property="zotero:itemType" content="videoRecording" />
+<meta property="dc:title" content="{{ (title or metadata.title) | escape }}" />
+<meta property="dc:creator" content="{{ metadata.author.name | escape }}" />
+<meta property="dc:language" content="{{ metadata.language }}" />
+<meta property="dc:identifier" content="{{ metadata.url }}{{ page.url }}" />
+<meta name="citation_author" content="{{ metadata.author.name | escape }}" />
+<meta name="citation_public_url" content="{{ metadata.url }}{{ page.url }}" />
+<meta name="citation_language" content="{{ metadata.language }}" />
+<meta name="prism.publicationName" content="Desecrating the Sacred" />
